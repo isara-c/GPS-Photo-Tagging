@@ -1,0 +1,21 @@
+python 3.8
+
+gpsphoto 2.2.3
+piexif 1.1.3
+pandas 1.0.5
+
+
+conda create --name addGPStag
+conda activate addGPStag
+
+
+pip install gpsphoto
+conda install -c conda-forge piexif
+conda install -c anaconda pandas
+conda install -c conda-forge exifread
+conda install -c anaconda pillow
+
+
+
+conda install ipykernel
+python -m ipykernel install --user --name addGPStag --display-name "Add GPS to Photo"
